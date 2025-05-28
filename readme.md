@@ -45,8 +45,8 @@ Este projeto contém um pipeline de processamento de dados de corridas, desenvol
 
 ## 🚀 Como Executar
 
-1. Faça upload do arquivo `info_transportes` para o Databrickse nomeie a tabela para `tb_info_transportes`.
-2. Faça upload dos arquivos `utils` e `tests_app` e importe-os para o `Workspace` dentro dos diretórios `/utils/utils` e `tests/tests_app`
+1. Faça upload do arquivo `info_transportes` para o Databricks e nomeie a tabela para `tb_info_transportes`.
+2. Faça upload dos arquivos `diario_de_bordo` `utils` e `tests_app` e importe-os para o `Workspace` dentro dos diretórios `Users/<seu-user>/diario_de_bordo`, `/utils/utils` e `tests/tests_app`
 3. Execute o notebook `diario_de_bordo` para rodar o pipeline.
 4. Consulte os resultados na tabela `silver_layer.info_corridas_do_dia`.
 
