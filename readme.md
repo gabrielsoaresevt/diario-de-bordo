@@ -1,4 +1,3 @@
-%md
 # Projeto: Pipeline de Processamento de Corridas - Databricks & PySpark
 
 Este projeto contém um pipeline de processamento de dados de corridas, desenvolvido em Databricks utilizando PySpark e Delta Lake. O objetivo é ler, tratar, agregar e persistir informações de corridas, facilitando análises e relatórios.
@@ -45,8 +44,8 @@ Este projeto contém um pipeline de processamento de dados de corridas, desenvol
 
 ## 🚀 Como Executar
 
-1. Faça upload do arquivo `info_transportes` para o Databricks e nomeie a tabela para `tb_info_transportes`.
-2. Faça upload dos arquivos `diario_de_bordo` `utils` e `tests_app` e importe-os para o `Workspace` dentro dos diretórios `Users/<seu-user>/diario_de_bordo`, `/utils/utils` e `tests/tests_app`
+1. Faça upload dos arquivos `diario_de_bordo` `utils` e `tests_app` e importe-os para o `Workspace` dentro dos diretórios `Users/<seu-user>/diario_de_bordo`, `/utils/utils` e `tests/tests_app`
+2. Acesse o notebook `diario_de_bordo` e crie os databases `bronze_layer` e `silver_layer` e faça o upload do arquivo `info_transportes` para o Databricks, nomeie a tabela para `tb_info_transportes`.
 3. Execute o notebook `diario_de_bordo` para rodar o pipeline.
 4. Consulte os resultados na tabela `silver_layer.info_corridas_do_dia`.
 
